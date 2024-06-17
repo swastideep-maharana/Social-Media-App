@@ -21,10 +21,10 @@ const App = () => {
 
           {/* private routes */}
         
-        <Route element={<RootLayout />}>
-          <Route index element={<Home />}/>
-        </Route>
-        </Routes>
+          <Route element={<RootLayout />}>
+            <Route index element={<Home />}/>
+            </Route>
+          </Routes>
     </main>
   )
 }

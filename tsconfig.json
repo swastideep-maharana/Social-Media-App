@@ -58,11 +58,11 @@
       
       // shadcn
       "baseUrl": ".",
-      "paths": {
-        "@/*": ["./src/*"]
+    "paths": {
+      "@/*": ["src/*"]
       }
     },
-    "include": ["src"],
+    "include": ["src", "src/lib/utils.ts"],
     "references": [{ "path": "./tsconfig.node.json" }]
   }
   
